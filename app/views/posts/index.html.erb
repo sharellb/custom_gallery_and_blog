@@ -1,0 +1,10 @@
+
+    <% @posts.each do |post| %>
+        <h2 class="text-center"><%= link_to post.title, "/posts/#{post.id}" %></h2>
+        <h4 class="text-center"><%= post.created_at.strftime('%a %b %d %Y') %></h4><br>
+        <div class="post text-justify">
+        	<p><%= raw post.body %></p>
+    	</div>
+    <% end %>
+<br>
+

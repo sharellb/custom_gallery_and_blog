@@ -1,0 +1,61 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require bootstrap-wysihtml5
+ *= require lazybox
+ *= require_self
+ */
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+
+ .thumbnail {
+  margin: 10px;
+ }
+
+ .post {
+ 	margin: 0px 50px;
+ }
+
+ a , a:hover {
+
+ color: black;
+ }
+
+ .photo {
+ 	margin: 50px;
+ }
+
+ .image {
+ 	border-radius: 50%;
+ }
+
+.icons {
+	padding: 10px;
+}
+ .icon {
+ 	width: 25px;
+ 	height: 25px;
+ }
+
+a#lazy_close {
+	text-decoration: none;
+}
+
+#lazy_body {
+	img {
+		padding: 0px;
+		height: 80%;
+		width: 80%;
+	}
+}
