@@ -1,5 +1,5 @@
 == Custom Photo Gallery and Blog
-A demo of the site can be found at qiburger.com.
+A demo of the site can be found at http://qiburger.com.
 
 This app was built as an example for a genertic personal website that includes a photo gallery and a blog.
 In config/intializers/settings.rb the settings can be changed to customize the site. 
