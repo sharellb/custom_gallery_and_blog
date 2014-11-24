@@ -53,7 +53,7 @@ class PhotosController < ApplicationController
 
 	def authenticate
       authenticate_or_request_with_http_basic do |name, password|
-        name == Settings::ADMIN_NAME && password == Settings::ADMIN_PASSWORD
+        name == admin_name && password == admin_password
       end
     end
 end
